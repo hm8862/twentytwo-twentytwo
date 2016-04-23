@@ -6,8 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>22:22</title>
 		<link rel="shortcut icon" href="static/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script src="js/resize.js"></script>
 		<script>
@@ -21,27 +22,34 @@
 	</head>
 
 	<body class="container-fluid">
-		<div class="row" id="top-padding">
+		<!-- header -->
+		<div class="row border header-hline">
+			<div class="col-md-4 col-md-offset-4 border">
+				<a href="http://twentytwo-twentytwo.co.uk"><img class="img-responsive header-logo" src="static/logo.png" alt="22:22"></a>
+				</div>
+			</div>
 		</div>
-		<div class="row background-image">
-			<div class="col-md-12 logo-background">
-				<img class="logo" src="static/logo.png">
+		<div class="row nav">
+			<div class="col-md-6">
+				<nav class="nav">
+				<ul>
+				  <li><a href="#">COLLECTION</a>
+				    <ul>
+				      <li><a href="#">COLLECTION NO.1</a></li>
+				    </ul>
+				  </li>
+				  <li><a href="#">SHOP</a>
+				  </li>
+				  <li><a href="#">PRESS</a>
+				  </li>
+				</nav>
 			</div>
-
-			<div class="col-md-12 coming-soon">
-				<h2>COMING SOON</h2>
-			</div>
-
-			<div class="col-md-12 contact">
-				<a href="mailto:jessica@twentytwo-twentytwo.co.uk"><h3>CONTACT</h3></a>
-			</div>
-
+		</div>
+		<!-- end header -->
+		<div class="row">
 			<div class="col-md-12">
-				<a target="_blank" href="https://instagram.com/twentytwo_twentytwo/"><img id="insta" class="img-responsive" src="static/icon_instagram.png"></a>
+				<img class="img-responsive carousel" src="http://placekitten.com/g/1920/800">
 			</div>
-		</div>
-		<div class="row" id="bottom-padding">
-		</div>	
 		</div>
 	</body>
 </html>
