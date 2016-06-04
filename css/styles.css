@@ -4,6 +4,7 @@ body {
 	max-width: 1920px;
 	letter-spacing: 0.35vw;
 	font-weight: 700;
+	min-height: 0.6235028249vw;
 }
 
 /*.border {
@@ -86,8 +87,13 @@ body {
 	width: 133%;
 }
 
-.centered {
+.text-centered {
 	text-align: center;
+}
+
+.text-justified {
+	text-align: justify;
+    text-justify: inter-word;
 }
 
 .carousel {
@@ -135,6 +141,10 @@ body {
 	padding: 10% 0;
 }
 
+.about {
+	margin-left: 70px;
+}
+
 .insta {
 	max-width: 24px;
 	height: auto;
@@ -150,7 +160,7 @@ body {
 
 .social {
 	display: inline-block;
-	margin-top: 10px;
+	margin-top: 13px;
 	vertical-align: bottom;
 }
 
@@ -163,7 +173,12 @@ body {
 
 .footer {
 	margin-bottom: 15px;
+	margin: 0 auto;
 }
+
+/*.footer nav {
+	margin: 0 auto;
+}*/
 
 .footer ul {
 	list-style: none;
@@ -171,10 +186,12 @@ body {
 	display: inline-block;
 	margin-top: 15px;
 	margin-bottom: 0;
+	width: 100%;
+	padding-left: 3.5%;
 }
 
 .footer li {
-	float: left;
+	/*float: left;*/
 	display: block;
 	padding: 0 20px;
 	margin: 0 auto;
