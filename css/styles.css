@@ -7,9 +7,9 @@ body {
 	min-height: 0.6235028249vw;
 }
 
-/*.border {
-	border: 2px solid black
-}*/
+.border {
+	/*border: 2px solid black*/
+}
 
 .row {
 	/*margin: 0% 2.2145941756%;*/
@@ -85,6 +85,41 @@ body {
 {
 	display:block;
 	width: 133%;
+}
+
+.basket ul {
+	list-style: none;
+	position: relative;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.basket ul a {
+
+	display: block;
+	color:#F2CC5F;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 12px;
+	/*font-size: 0.7751079615vw;*/
+	line-height:32px;
+	padding: 0 15px;
+}
+
+.basket ul li {
+	position: relative;
+	float: right;
+	margin: 0;
+	padding: 0px 10px;
+	z-index: 1000;
+}
+
+.basket ul li a:hover
+{
+	font-size: 13px;
+	padding-right: 9px;
+	vertical-align: middle;
 }
 
 .text-centered {
