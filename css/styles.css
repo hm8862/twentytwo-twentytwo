@@ -3,12 +3,16 @@ body {
 	color: #6D7079;
 	max-width: 1920px;
 	letter-spacing: 0.35vw;
-	font-weight: 700;
+	/*font-weight: 700;*/
 	min-height: 0.6235028249vw;
 }
 
+h4 {
+	font-size: 16px;
+}
+
 .border {
-	/*border: 2px solid black*/
+	/*border: 2px solid black;*/
 }
 
 .row {
@@ -26,64 +30,64 @@ body {
 
 .nav ul
 {
-	list-style:none;
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0
+	list-style: none;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
 }
 
 .nav ul a
 {
-	display:block;
-	color:#6D7079;
-	text-decoration:none;
-	font-weight:700;
-	font-size:12px;
+	display: block;
+	color: #6D7079;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 11px;
 	/*font-size: 0.7751079615vw;*/
-	line-height:32px;
-	padding:0 15px;
+	line-height: 32px;
+	padding: 0 15px;
 }
 
 .nav ul li
 {
-	position:relative;
-	float:left;
+	position: relative;
+	float: left;
 	margin: 0;
-	padding:0px 10px;
-	z-index:1000;
+	padding: 0px 10px;
+	z-index: 1000;
 }
 
 .nav ul li:hover
 {
-	background:#f6f6f6;
+	background: #f6f6f6;
 	opacity: 0.7;
 }
 
 .nav ul ul
 {
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	background:#fff;
-	padding:0
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #fff;
+	padding: 0
 }
 
 .nav ul ul li
 {
-	float:none;
+	float: none;
 }
 
 .nav ul ul a
 {
-	line-height:120%;
+	line-height:  120%;
 	padding:10px 15px
 }
 
 .nav ul li:hover > ul
 {
-	display:block;
+	display: block;
 	width: 133%;
 }
 
@@ -101,7 +105,7 @@ body {
 	color:#F2CC5F;
 	text-decoration: none;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 11px;
 	/*font-size: 0.7751079615vw;*/
 	line-height:32px;
 	padding: 0 15px;
@@ -117,7 +121,7 @@ body {
 
 .basket ul li a:hover
 {
-	font-size: 13px;
+	font-size: 12px;
 	padding-right: 9px;
 	vertical-align: middle;
 }
@@ -128,20 +132,158 @@ body {
 
 .text-justified {
 	text-align: justify;
-    text-justify: inter-word;
+	text-justify: inter-word;
+}
+
+.left-margin {
+	margin-left: 40px;
+	/*padding-right: 0px;*/
+}
+
+.right-margin {
+	/*padding-left: 0px;*/
+	margin-right: 40px;
 }
 
 .carousel {
 	padding: 0;
 }
 
+.top-margin {
+	margin-top: 25px;
+}
+.bottom-margin {
+	margin-bottom: 25px;
+}
+
+/*.shop div {
+	margin-top: 25px;
+	margin: 0 auto;
+}
+*/
+
+.scroll {
+	height: 70vh;
+	overflow: scroll;
+	float: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*.shop .col-md-12 {
+	float: none;
+	margin: 0 auto;
+}*/
+
+.shop img {
+	margin: 0px auto;
+	padding: 10px;
+}
+
+.shop .col-md-4 {
+	margin: 0px;
+	padding: 0px 10px;
+}
+
+.shop .price {
+	text-align: right;
+}
+
+.shop span {
+	font-size: 13px;
+}
+
+.shop-item {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.shop-item img {
+	margin: 0 auto;
+	/*padding: 10% 0;*/
+}
+
+.shop-item span {
+	font-size: 13px;
+}
+
+.shop-item select {
+	text-transform: none;
+	width: 68%;
+	border: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	/*-webkit-*/
+	/*width: 100%*/
+	/*background: #FFFFFF  90% / 10% no-repeat;*/
+	background-image: url(../static/dropdown.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 12px;
+	background-color: #FFFFFF;
+	letter-spacing: inherit;
+}
+
+.shop-item input {
+	background-color: #FFFFFF;
+    border: none;
+    color: #6D7079;
+    padding: 0px;
+    /*text-align: center;*/
+    text-decoration: none;
+    letter-spacing: inherit;
+    /*display: inline-block;*/
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.photo-grid .left-margin {
+	padding-left: 50px;
+	padding-right: 0px;
+}
+
+.photo-grid .right-margin {
+	padding-left: 0px;
+	padding-right: 50px;
+}
+
+.photo-grid div {
+	padding: 0px;
+}
+
+
+/*
+
+
+.photo-grid .col-md-4 {
+	padding-left: 0px;
+	padding-right: 40px;
+}
+
+.photo-grid .col-md-5 {
+	padding: 0px;
+}*/
+
+.photo-grid img {
+	display: inline-block;
+	padding: 7px;
+	margin: 0px;
+}
+
+
 .contact-details {
 	margin-top: 50px;
 	font-weight: 700;
 }
 
+.contact-details a {
+	text-decoration: none;
+	color: #6D7079;
+}
+
 .contact-details h4 {
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 700;
 	border-bottom:	2px solid #dfc2ba;
 	width: 100px;
@@ -151,6 +293,7 @@ body {
 
 .contact-details h5 {
 	font-weight: 700;
+	font-size: 12px;
 	margin-bottom: 10px;
 }
 
@@ -203,6 +346,7 @@ body {
 	max-width: 13%;
 	height: auto;
 	float: right;
+	opacity: 0.6;
 
 }
 
@@ -236,5 +380,5 @@ body {
 	color: #6D7079;
 	text-decoration: none;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 11px;
 }
