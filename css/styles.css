@@ -8,7 +8,7 @@ body {
 }
 
 h4 {
-	font-size: 16px;
+	font-size: 12px;
 }
 
 .border {
@@ -71,7 +71,7 @@ h4 {
 	top: 100%;
 	left: 0;
 	background: #fff;
-	padding: 0
+	padding: 0;
 }
 
 .nav ul ul li
@@ -82,7 +82,8 @@ h4 {
 .nav ul ul a
 {
 	line-height:  120%;
-	padding:10px 15px
+	padding:10px 15px;
+	font-weight: 300;
 }
 
 .nav ul li:hover > ul
@@ -136,13 +137,13 @@ h4 {
 }
 
 .left-margin {
-	margin-left: 40px;
-	/*padding-right: 0px;*/
+	/*margin-left: 40px;*/
+	padding-left: 1%;
 }
 
 .right-margin {
-	/*padding-left: 0px;*/
-	margin-right: 40px;
+	/*padding-right: 1%;*/
+	/*margin-right: 40px;*/
 }
 
 .carousel {
@@ -239,13 +240,13 @@ h4 {
 }
 
 .photo-grid .left-margin {
-	padding-left: 50px;
+	padding-left: 3.25%;
 	padding-right: 0px;
 }
 
 .photo-grid .right-margin {
 	padding-left: 0px;
-	padding-right: 50px;
+	padding-right: 3.25%;
 }
 
 .photo-grid div {
@@ -274,7 +275,7 @@ h4 {
 
 .contact-details {
 	margin-top: 50px;
-	font-weight: 700;
+	/*font-weight: 700;*/
 }
 
 .contact-details a {
@@ -283,7 +284,7 @@ h4 {
 }
 
 .contact-details h4 {
-	font-size: 13px;
+	font-size: 11px;
 	font-weight: 700;
 	border-bottom:	2px solid #dfc2ba;
 	width: 100px;
@@ -292,7 +293,7 @@ h4 {
 }
 
 .contact-details h5 {
-	font-weight: 700;
+	/*font-weight: 700;*/
 	font-size: 12px;
 	margin-bottom: 10px;
 }
