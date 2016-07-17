@@ -164,7 +164,7 @@ h4 {
 */
 
 .scroll {
-	height: 70vh;
+	height: 60vh;
 	overflow: scroll;
 	float: none;
 	margin: 0 auto;
@@ -325,6 +325,13 @@ h4 {
 	margin-left: 70px;
 }
 
+.contributor {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+	float: none;
+}
+
 .insta {
 	max-width: 24px;
 	height: auto;
@@ -388,5 +395,36 @@ h4 {
 .modal-dialog {
 	/*display: inline-block;
 	margin: 0 auto;*/
+	/*height: 50%;*/
 	vertical-align: middle;
+}
+
+.vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    pointer-events: none; 
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events: none;
+}
+.modal-content {
+    /*width: inherit;*/
+    /*height: inherit;*/
+    max-width: 80vh;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+#pressModal a {
+	color: #6D7079;
+	text-decoration:  none;
+}
+
+#pressModal .contributor {
+	margin: 25px;
 }
