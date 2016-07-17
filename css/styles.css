@@ -7,8 +7,27 @@ body {
 	min-height: 0.6235028249vw;
 }
 
+h2 {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 12px;
+	font-weight: 700;
+}
+
 h4 {
 	font-size: 12px;
+}
+
+p {
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #6D7079;
 }
 
 .border {
@@ -288,8 +307,9 @@ h4 {
 	font-size: 11px;
 	font-weight: 700;
 	border-bottom:	2px solid #dfc2ba;
-	width: 100px;
-	margin-bottom: 0;
+	width: 80px;
+	/*margin-bottom: 0;*/
+	margin: 0 auto;
 	padding-bottom: 5px;
 }
 
@@ -323,6 +343,10 @@ h4 {
 
 .about {
 	margin-left: 70px;
+}
+
+.terms a {
+	text-decoration: none !important; 
 }
 
 .contributor {
@@ -360,37 +384,32 @@ h4 {
 }
 
 .footer {
+	float: none;
 	margin-bottom: 15px;
 	margin: 0 auto;
 }
 
-/*.footer nav {
-	margin: 0 auto;
-}*/
-
-.footer ul {
-	list-style: none;
-	float: left;
-	display: inline-block;
-	margin-top: 15px;
-	margin-bottom: 0;
-	width: 100%;
-	padding-left: 3.5%;
+.footer ul{
+    list-style:none;
+    margin: 0;
+    /*padding: 0;*/
+    text-align:center;
+    padding-top: 23px;
+	padding-bottom: 5px;
 }
-
-.footer li {
-	/*float: left;*/
-	display: block;
+.footer ul li{
 	padding: 0 20px;
-	margin: 0 auto;
+    display: inline;
 }
 
 .footer a {
+	display: inline-block;
 	color: #6D7079;
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 11px;
 }
+
 
 .modal-dialog {
 	/*display: inline-block;
