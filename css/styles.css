@@ -414,7 +414,7 @@ h4 {
 .modal-content {
     /*width: inherit;*/
     /*height: inherit;*/
-    max-width: 80vh;
+    max-width: 50vw;
     /* To center horizontally */
     margin: 0 auto;
     pointer-events: all;
