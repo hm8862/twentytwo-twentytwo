@@ -159,6 +159,10 @@ a {
 	vertical-align: middle;
 }
 
+.padded {
+	padding: 30px;
+}
+
 .text-centered {
 	text-align: center;
 }
@@ -170,7 +174,7 @@ a {
 
 .left-margin {
 	/*margin-left: 40px;*/
-	padding-left: 1%;
+	/*padding-left: 1%;*/
 }
 
 .right-margin {
