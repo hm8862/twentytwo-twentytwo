@@ -7,7 +7,8 @@
 		<title>22:22</title>
 		<link rel="shortcut icon" href="../static/favicon.png" />
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+		<link rel="stylesheet" type="text/css" media="(min-width: 992px)" href="../css/styles.css">
+		<link rel="stylesheet" type="text/css" media="(max-width: 991px)" href="../css/styles-mob.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -28,7 +29,7 @@
 		<div class="row">
 			<div class="col-md-12 hline">
 				<div class="col-md-4 col-md-offset-4">
-					<a href="../index.html"><img class="img-responsive logo" src="../static/logo.png"></a>
+					<a href="../"><img class="img-responsive logo" src="../static/logo.png"></a>
 				</div>
 			</div>
 		</div>
@@ -42,9 +43,9 @@
 								<li><a href="#">COLLECTION NO.1</a></li>
 							</ul>
 						</li> -->
-						<li><a href="../shop.html">SHOP</a>
+						<li><a href="../shop">SHOP</a>
 						</li>
-						<li><a href="../press.html">PRESS</a>
+						<li><a href="../press">PRESS</a>
 						</li>
 					</ul>
 				</nav>
@@ -53,15 +54,15 @@
 <!-- end header -->
 
 		<div class="row border top-margin bottom-margin">
-			<div class="col-md-6 shop-item border">
+			<div class="col-md-6 col-xs-12 shop-item border">
 				<a href="#" id="pop">
 					<img id="emin" class="img-responsive" data-toggle="modal" data-target="#itemModal" src="../static/shop/EMINNUDE1.jpeg">
 				</a>
 			</div>
 
-			<div class="col-md-6 border shop-item">
+			<div class="col-md-6 col-xs-12 border shop-item">
 				<form id="item-form" action="mailto:jessica@twentytwo-twentytwo.co.uk" method="post" enctype="text/plain" onsubmit="onSubmit()">
-					<div class="col-md-12">
+					<div class="col-md-12 col-xs-12">
 						<span id="item-name"><b>EMIN</b> SILK TOP</span>
 						<br>
 						<br>
@@ -79,13 +80,13 @@
 					<br>
 					<br>
 					<br>
-					<div class="col-md-5">
+					<div class="col-md-5 col-xs-12">
 						<select id="item-size">
 							<option value="" disabled selected>SELECT SIZE</option>
 							<option name="body" value="SMALL">ONE-SIZE</option>
 						</select>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<!-- <span>SELECT COLOUR</span> -->
 						<select id="item-colour" onchange="onChange()">
 							<option value="" disabled selected>SELECT COLOUR</option>
@@ -127,14 +128,14 @@
 			<div class="col-md-8 col-md-offset-2">
 				<nav>
 					<ul class="border">
-						<li><a href="../terms-and-conditions.html">TERMS & CONDITIONS</a></li>
-						<li><a href="../about.html">ABOUT</a></li>
-						<li><a href="../working-with-us.html">WORKING WITH US</a></li>
-						<li><a href="../contact.html">CONTACT</a></li>
+						<li><a href="../terms-and-conditions">TERMS & CONDITIONS</a></li>
+						<li><a href="../about">ABOUT</a></li>
+						<li><a href="../working-with-us">WORKING WITH US</a></li>
+						<li><a href="../contact">CONTACT</a></li>
 					</ul>
 				</nav>
 			</div>
-			<div class="col-md-2 social border">
+			<div class="col-md-2 col-xs-12 social border">
 				<a target="_blank" href="https://www.instagram.com/twentytwo_twentytwo/"><img class="img-responsive" src="../static/icon_instagram.png"></a>
 			</div>
 		</div>
