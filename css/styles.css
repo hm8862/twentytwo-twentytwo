@@ -36,6 +36,7 @@ a {
 
 .row {
 	/*margin: 0% 2.2145941756%;*/
+	position: relative;
 }
 
 .logo {
@@ -270,7 +271,7 @@ a {
 }
 
 .photo-grid div {
-	padding: 0px;
+	/*padding: 0px;*/
 }
 
 
@@ -292,6 +293,19 @@ a {
 	margin: 0px;
 }
 
+.press-detail {
+	/*padding: 3px;*/
+}
+
+.press-detail span {
+	line-height: 1.8;
+}
+
+.float-bottom {
+	position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 .contact-details {
 	margin-top: 50px;
