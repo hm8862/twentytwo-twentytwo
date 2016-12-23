@@ -31,7 +31,7 @@ a {
 }
 
 .border {
-	/*border: 2px solid black;*/
+	border: 2px solid black;
 }
 
 .row {
@@ -201,7 +201,8 @@ a {
 
 .scroll {
 	height: 60vh;
-	overflow: scroll;
+	width: 100%;
+	overflow-y: scroll;
 	float: none;
 	margin: 0 auto;
 	padding: 0;
@@ -311,19 +312,37 @@ a {
 .photo-grid div {
 	/*padding: 10px;*/
 }
-
-
-/*
-
-
-.photo-grid .col-md-4 {
-	padding-left: 0px;
-	padding-right: 40px;
+.press {
+	min-height: 62.35028249vw;
+	width: 100%;
+	position: absolute;
+	/*overflow-y: scroll;*/
+	/*float: none;*/
+	margin: 0 auto;
+	/*padding: 0;*/
 }
 
-.photo-grid .col-md-5 {
-	padding: 0px;
-}*/
+.press .press-article {
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+.press-article img {
+	width: 100%;
+	padding: 0 5%;
+	margin: 0 auto;
+}
+
+.press-detail {
+	/*padding: 3px;*/
+	padding-top: 10px;
+}
+
+.press-detail span {
+	line-height: 1.8;
+	padding-left: 5%;
+	padding-right: 5%;
+}
 
 .photo-grid img {
 	display: block;
@@ -422,10 +441,21 @@ a {
 
 }
 
-.footer {
+/*.footer {
 	float: none;
 	margin-bottom: 15px;
 	margin: 0 auto;
+}*/
+
+.footer {
+	background-color: white;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	float: none;
+	padding-bottom: 15px;
+	margin: 0 auto;
+	padding-right: 15px;
 }
 
 .footer ul{
@@ -486,4 +516,9 @@ a {
 
 #pressModal .contributor {
 	margin: 25px;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
 }

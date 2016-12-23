@@ -1,10 +1,18 @@
+html {
+	/*overflow: auto;*/
+	/*height: 100%;*/
+}
+
 body {
 	font-family: 'Lato', sans-serif;
 	color: #6D7079;
 	max-width: 1920px;
 	letter-spacing: 0.35vw;
+	overflow: auto;
 	/*font-weight: 700;*/
-	min-height: 0.6235028249vw;
+	min-height: 62.35028249vw;
+	/*max-height: 1vh;*/
+	/*height: 100%;*/
 }
 
 h2 {
@@ -37,6 +45,12 @@ a {
 .row {
 	/*margin: 0% 2.2145941756%;*/
 	position: relative;
+	overflow-y: auto;
+}
+
+.header {
+	position: fixed;
+	/*top: 0px;*/
 }
 
 .logo {
@@ -185,7 +199,8 @@ a {
 
 .scroll {
 	height: 60vh;
-	overflow: scroll;
+	width: 100%;
+	overflow-y: scroll;
 	float: none;
 	margin: 0 auto;
 	padding: 0;
@@ -274,7 +289,30 @@ a {
 	/*padding: 0px;*/
 }
 
+.press {
+	min-height: 62.35028249vw;
+	width: 100%;
+	position: absolute;
+/*	overflow-y: scroll;
+	float: none;
+	margin: 0 auto;
+	padding: 0;*/
+}
 
+.press .press-article {
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+.press-article .col-md-8 {
+	padding-left: 3%;
+}
+
+.press-article img {
+	width: 100%;
+	padding: 0 5%;
+	/*margin: 0 auto;*/
+}
 /*
 
 
@@ -398,9 +436,14 @@ a {
 }
 
 .footer {
+	background-color: white;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
 	float: none;
-	margin-bottom: 15px;
+	padding-bottom: 15px;
 	margin: 0 auto;
+	padding-right: 15px;
 }
 
 .footer ul{
@@ -460,4 +503,9 @@ a {
 
 #pressModal .contributor {
 	margin: 25px;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
 }
